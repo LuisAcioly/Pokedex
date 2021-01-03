@@ -15,6 +15,7 @@ namespace Pokedex2.Models
         [Display(Name = "Tipo")]
         public string type { get; set; }
 
+        [Display(Name = "Treinador")]
         public int TrainerId { get; set; }
         [Display(Name = "Treinador")]
         public Trainer trainer { get; set; }

@@ -14,6 +14,5 @@ namespace Pokedex2.Models
         [Display(Name = "Nome")]
         public string name { get; set; }
 
-        public List<Pokemon> pokemons { get; set; }
     }
 }
